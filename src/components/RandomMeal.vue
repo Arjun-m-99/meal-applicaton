@@ -4,7 +4,7 @@
       <h1  >Yummy... Food !</h1>
       <div class="container">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMkXEWpoUheemO8LyO_1KMo3c8ijQi5-yvLlKHItV1opMyjHsIMLPOwqUC2iTm1VrVW5U&usqp=CAU" style="width:80%"  >
-            <button class="btn" @click="getList">Get Meal</button>
+            <button class="btn btn1" @click="getList">Get Meal</button>
         </div>
       <div v-for="item in recipes" :key="item.idMeal">
       
@@ -51,6 +51,9 @@ h1 {
 .container{
     text-align: center;
     margin: auto;
+}
+.btn1:hover{
+  color: rgb(5, 238, 255) !important;
 }
 
 </style>
