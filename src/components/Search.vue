@@ -125,14 +125,22 @@ export default {
 };
 </script>
 <style>
-.search-template:hover{
-    display: none;
+.search-template:hover {
+  display: none;
 }
 .search {
-    padding-left: 35%;
+  padding-left: 35%;
 }
-input{
-    width: 35%;
+input {
+  width: 35%;
+  border-radius: 10px;
+}
+.btn-search {
+  color: white;
+  height: 4vh;
+  border: 1px solid black;
+  background-color: rgb(8, 6, 117);
+  border-radius: 12px;
 }
 img {
   max-width: 100%;
@@ -144,7 +152,6 @@ img {
   margin: 1% !important;
   padding: 2%;
   border-radius: 10px;
-
 }
 
 .search-result-img {
@@ -224,11 +231,5 @@ img {
 
 .container .btn:hover {
   background-color: black;
-}
-.btn-search {
-  color: white;
-  height: 4vh;
-  border: 1px solid black;
-  background-color: rgb(8, 6, 117);
 }
 </style>
